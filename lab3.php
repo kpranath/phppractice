@@ -99,7 +99,80 @@
                 echo("<br>");
             }
 
-            
+            //Table output
+            echo "Table of the data<br>";
+            print "<table>
+                    <tr>
+                        <th>StudentName</th>
+                        <th>Test one</th>
+                        <th>Test two</th>
+                        <th>Test three</th>
+                        <th>Test four</th>
+                    </tr>
+                    <tr>
+                        <td>" . $students[0] . "</td>
+                        <td>" . $test1[$students[0]] . "</td>
+                        <td>" . $test2[$students[0]] . "</td>
+                        <td>" . $test3[$students[0]] . "</td>
+                        <td>" . $test4[$students[0]] . "</td>
+                    </tr>
+                    <tr>
+                        <td>" . $students[1] . "</td>
+                        <td>" . $test1[$students[1]] . "</td>
+                        <td>" . $test2[$students[1]] . "</td>
+                        <td>" . $test3[$students[1]] . "</td>
+                        <td>" . $test4[$students[1]] . "</td>
+                    </tr>
+                    <tr>
+                        <td>" . $students[2] . "</td>
+                        <td>" . $test1[$students[2]] . "</td>
+                        <td>" . $test2[$students[2]] . "</td>
+                        <td>" . $test3[$students[2]] . "</td>
+                        <td>" . $test4[$students[2]] . "</td>
+                    </tr>
+                    <tr>
+                        <td>" . $students[3] . "</td>
+                        <td>" . $test1[$students[3]] . "</td>
+                        <td>" . $test2[$students[3]] . "</td>
+                        <td>" . $test3[$students[3]] . "</td>
+                        <td>" . $test4[$students[3]] . "</td>
+                    </tr>
+                    <tr>
+                        <td>" . $students[4] . "</td>
+                        <td>" . $test1[$students[4]] . "</td>
+                        <td>" . $test2[$students[4]] . "</td>
+                        <td>" . $test3[$students[4]] . "</td>
+                        <td>" . $test4[$students[4]] . "</td>
+                    </tr>
+                    <tr>
+                        <td>" . $students[5] . "</td>
+                        <td>" . $test1[$students[5]] . "</td>
+                        <td>" . $test2[$students[5]] . "</td>
+                        <td>" . $test3[$students[5]] . "</td>
+                        <td>" . $test4[$students[5]] . "</td>
+                    </tr>
+                    <tr>
+                        <td>" . $students[6] . "</td>
+                        <td>" . $test1[$students[6]] . "</td>
+                        <td>" . $test2[$students[6]] . "</td>
+                        <td>" . $test3[$students[6]] . "</td>
+                        <td>" . $test4[$students[6]] . "</td>
+                    </tr>
+                    <tr>
+                        <td>" . $students[7] . "</td>
+                        <td>" . $test1[$students[7]] . "</td>
+                        <td>" . $test2[$students[7]] . "</td>
+                        <td>" . $test3[$students[7]] . "</td>
+                        <td>" . $test4[$students[7]] . "</td>
+                    </tr>
+                    <tr>
+                        <td>Average</td>
+                        <td>" . $average1 . "</td>
+                        <td>" . $average2 . "</td>
+                        <td>" . $average3 . "</td>
+                        <td>" . $average4 . "</td>
+                    </tr>
+                  </table>"
         ?>
     </body>
 </html>
