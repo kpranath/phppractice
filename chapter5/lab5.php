@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Output</title>
+    </head>
+    <body>
+        <?php
+        for($i=0;$i<13;$i++){
+            $x=0;
+            while($x<=$i){
+                echo("*");
+                $x++;
+            }
+            echo("<br>");
+        }
+        ?>
+    </body>
+</html>
