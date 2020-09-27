@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>Output</title>
+    </head>
+    <body>
+        <?php
+        for($i=0;$i<13;$i++){
+            echo($i);
+            echo("<br>");
+        }
+        ?>
+    </body>
+</html>
